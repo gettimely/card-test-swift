@@ -13,6 +13,8 @@
 		F46845A31BE862AF009A2A07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46845A21BE862AF009A2A07 /* Images.xcassets */; };
 		F46845A61BE862AF009A2A07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46845A41BE862AF009A2A07 /* LaunchScreen.xib */; };
 		F46845B21BE862B0009A2A07 /* CardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46845B11BE862B0009A2A07 /* CardTestTests.swift */; };
+		F46845BC1BE86368009A2A07 /* CreditCardTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46845BB1BE86368009A2A07 /* CreditCardTester.swift */; };
+		F46845BD1BE865D0009A2A07 /* CreditCardTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46845BB1BE86368009A2A07 /* CreditCardTester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		F46845AB1BE862B0009A2A07 /* CardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46845B01BE862B0009A2A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F46845B11BE862B0009A2A07 /* CardTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTestTests.swift; sourceTree = "<group>"; };
+		F46845BB1BE86368009A2A07 /* CreditCardTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				F46845A21BE862AF009A2A07 /* Images.xcassets */,
 				F46845A41BE862AF009A2A07 /* LaunchScreen.xib */,
 				F46845991BE862AF009A2A07 /* Supporting Files */,
+				F46845BB1BE86368009A2A07 /* CreditCardTester.swift */,
 			);
 			path = CardTest;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F468459E1BE862AF009A2A07 /* ViewController.swift in Sources */,
+				F46845BC1BE86368009A2A07 /* CreditCardTester.swift in Sources */,
 				F468459C1BE862AF009A2A07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46845BD1BE865D0009A2A07 /* CreditCardTester.swift in Sources */,
 				F46845B21BE862B0009A2A07 /* CardTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +417,7 @@
 				F46845B71BE862B0009A2A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F46845B81BE862B0009A2A07 /* Build configuration list for PBXNativeTarget "CardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				F46845BA1BE862B0009A2A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
