@@ -160,6 +160,8 @@
 		F468458E1BE862AF009A2A07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Timely Ltd";
 				TargetAttributes = {
